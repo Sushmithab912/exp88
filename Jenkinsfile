@@ -6,7 +6,7 @@ pipeline {
  
   stage('Clone Repository') { 
    steps { 
-    git 'https://github.com/Sushmithab912/exp88.git' 
+    git branch :'main',url :'https://github.com/Sushmithab912/exp88.git' 
    } 
   } 
  
