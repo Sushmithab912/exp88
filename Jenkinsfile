@@ -18,7 +18,7 @@ pipeline {
  
   stage('Run Docker Container') { 
    steps { 
-    bat 'docker run -d -p 8081:80 --name web-container exp8' 
+    bat 'docker run -d -p 8081:80 --name web1c exp8' 
    } 
   } 
  
